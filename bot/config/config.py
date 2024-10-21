@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     API_ID: int
     API_HASH: str
 
-    SLEEP_TIME: list[int] = [2700, 4200]
+    SLEEP_TIME: list[int] = [7200, 10800]
     START_DELAY: list[int] = [5, 100]
     AUTO_TASK: bool = True
     TASKS_TO_DO: list[str] = ["paint20pixels", "x:notpixel", "x:notcoin", "channel:notcoin", "channel:notpixel_channel", "joinSquad", "jettonTask"]
