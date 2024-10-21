@@ -47,7 +47,7 @@ Before you begin, make sure you have the following installed:
 You can download the [**repository**](https://github.com/kohutiv/NotPixelBot) by cloning it to your system and installing the necessary dependencies:
 ```shell
 git clone https://github.com/kohutiv/NotPixelBot
-cd notpixel
+cd NotPixelBot
 ```
 
 Then you can do automatic installation by typing:
@@ -74,9 +74,9 @@ python3 main.py
 
 You can also use arguments for quick start, for example:
 ```shell
-~/notpixel >>> python3 main.py --action (1/2)
+~/NotPixelBot >>> python3 main.py --action (1/2)
 # Or
-~/notpixel >>> python3 main.py -a (1/2)
+~/NotPixelBot >>> python3 main.py -a (1/2)
 
 # 1 - Start drawing 🎨️
 # 2 - Creates a session 👨‍🎨
@@ -94,9 +94,9 @@ python main.py
 
 You can also use arguments for quick start, for example:
 ```shell
-~/notpixel >>> python main.py --action (1/2)
+~/NotPixelBot >>> python main.py --action (1/2)
 # Or
-~/notpixel >>> python main.py -a (1/2)
+~/NotPixelBot >>> python main.py -a (1/2)
 
 # 1 - Start drawing 🎨️
 # 2 - Creates a session 👨‍🎨
