@@ -47,6 +47,7 @@ Before you begin, make sure you have the following installed:
 You can download the [**repository**](https://github.com/kohutiv/NotPixelBot) by cloning it to your system and installing the necessary dependencies:
 ```shell
 git clone https://github.com/kohutiv/NotPixelBot
+cd notpixel
 ```
 
 Then you can do automatic installation by typing:
@@ -71,8 +72,14 @@ nano .env  # Here you must specify your API_ID and API_HASH, the rest is taken b
 python3 main.py
 ```
 
-# 1 - Run clicker
-# 2 - Creates a session
+You can also use arguments for quick start, for example:
+```shell
+~/notpixel >>> python3 main.py --action (1/2)
+# Or
+~/notpixel >>> python3 main.py -a (1/2)
+
+# 1 - Start drawing 🎨️
+# 2 - Creates a session 👨‍🎨
 ```
 
 # Windows manual installation
@@ -85,25 +92,14 @@ copy .env-example .env
 python main.py
 ```
 
-# 1 - Run clicker
-# 2 - Creates a session
-```
-
-### Usages
-When you first launch the bot, create a session for it using the 'Creates a session' command. It will create a 'sessions' folder in which all accounts will be stored, as well as a file accounts.json with configurations.
-If you already have sessions, simply place them in a folder 'sessions' and run the clicker. During the startup process you will be able to configure the use of a proxy for each session.
-User-Agent is created automatically for each account.
-
-Here is an example of what accounts.json should look like:
+You can also use arguments for quick start, for example:
 ```shell
-[
-  {
-    "session_name": "name_example",
-    "user_agent": "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.165 Mobile Safari/537.36",
-    "proxy": "type://user:pass:ip:port"  # "proxy": "" - if you dont use proxy
-  }
-]
-```
+~/notpixel >>> python main.py --action (1/2)
+# Or
+~/notpixel >>> python main.py -a (1/2)
 
+# 1 - Start drawing 🎨️
+# 2 - Creates a session 👨‍🎨
+```
 
 
